@@ -1,10 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Videocast</title>
-</head>
-<body>
 
-</body>
+
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <title>Zürich Reiseführer</title>
+     
+
+          
+    <style>
+      @import url("./style.css") screen;
+    </style>
+    <link
+      rel="shortcut icon"
+      href="../../logo/logo.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+    <title>Zürich - Reiseführer</title>
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+
+  <body>
+    <header>
+      <a href="./index.html">
+        <h1><img src="./logo/logo.png" alt="Logo" /></h1></a>
+      <nav id="mainNav">
+        <ul>
+      
+          <li><a href="./restaurants.html">Restaurants</a></li>
+
+          <li>
+            <a href="./laeden.html">Läden</a>
+          </li>
+
+          <li><a href="./sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+          <li>
+            <a href="./kontakt.html">Kontakt</a>
+          </li>
+          <li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="hamIcon" onclick="openNav()">☰</div>
+      <nav id="hamNav">
+        <ul>
+          <li><a href="./restaurants.html">Restaurants</a></li>
+
+          <li>
+            <a href="./laeden.html">Läden</a>
+          </li>
+
+          <li><a href="./sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+          <li>
+            <a href="./kontakt.html">Kontakt</a>
+          </li>
+
+        </ul>
+      </nav>
+    </header>
+
+    <article id="start">
+
+      <a href="#content" class="scroll-down"></a>
+    </article>
+
+    <main id="content">
+      <h2>Wilkommen auf Zürich-Tipps</h2>
+      <article class="kapitel1">
+        <section class="border">
+          <img src="./bilder/primetower-nacht.jpg" alt="primetower-nacht" />
+        </section>
+        <div class="container">
+          <div class="row">
+        <element class="text1">
+          <br>
+              <div class="col-xs-12">
+            Die wunderschöne am Zürichsee gelegene Stadt der Schweiz beitet einiges. Auf unserer Website "Zürich - Tipps" haben wir empfohlene Restaurants, Läden und Sehenswürdigkeiten aufgelistet, die Sie umbedingt sehen sollten.
+                </div>
+            <br>
+            <br>
+            <span> Viel Spass beim Erkunden von Zürich</span>
+                <br>
+                <br>
+                <audio id="myaudio" controls>
+                  <source src="./audio/audio.mp3" type="audio/mpeg">
+                  Dieser Webbrowser unterstützt das audio-Tag nicht
+                </audio>
+                <br>
+                <br>
+     
+            <a href="./restaurants.html">
+            <button type="button"  class="btn btn-outline-dark btnrestaurant">Restaurants</button>
+            </a>
+           
+            <a href="./sehenswuerdigkeiten.html">
+            <button type="button" class="btn btn-outline-dark btnsehenswuerdigkeiten">Sehenswürdigkeiten</button>
+            </a>
+
+            <a href="./laeden.html">
+            <button type="button" class="btn btn-outline-dark btnlaeden">Läden</button>
+            </a>
+
+           </div>
+           </div>
+
+
+        </element>
+
+      </article>
+
+    
+    
+    <span class="video">
+      <video controls>
+      <source src="./video/video_zurich.mp4" type="video/mp4">
+      </video>
+    </span>
+      <br>
+      <br>
+    </main>
+    <script src="./java.js"></script>
+
+    <div class="container-fluid">
+      <div class="row">
+    <footer class="footer">
+        <div class="col-xs-6">
+        <a href="mailto:mail@zuerichtips.ch" class="footer"
+          ><b> E-Mail:</b> mail@zuerichtips.ch
+        </a>
+        </div>
+        <b style="color: #09497e;"> /</b>
+        <div class="col-xs-6">
+        <a href="tel:+41754303885" class="footer"
+          ><b> Ruf uns an:</b> +41 12 345 67 89
+        </a>
+        </div>
+    
+    </footer>
+  </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
